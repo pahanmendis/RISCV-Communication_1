@@ -45,14 +45,14 @@ parameter TRANSMITTING=2'b01;
 parameter DONE=2'b10;
 
 
-Tx_modifier  Tx_modifier(
-					.Tx_tick_retreiver(Tx_tick),
-					.wen_retreiver(wen),
-					.Tx_tick_Tx(Tx_tick_from_tx),
-					.wen_Tx(wen_Tx),
-					.end_address(end_add), //change this inorder to SEND different sizes of images   .put "end_add"/18'b111111111111111111 in brackets
-					.address(addr)
-					);
+//Tx_modifier  Tx_modifier(
+//					.Tx_tick_retreiver(Tx_tick),
+//					.wen_retreiver(wen),
+//					.Tx_tick_Tx(Tx_tick_from_tx),
+//					.wen_Tx(wen_Tx),
+//					.end_address(end_add), //change this inorder to SEND different sizes of images   .put "end_add"/18'b111111111111111111 in brackets
+//					.address(addr)
+//					);
 
 					
 
